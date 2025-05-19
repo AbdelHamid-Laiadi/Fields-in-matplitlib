@@ -3,6 +3,14 @@
 Created on Sun Feb 12 14:00:33 2023
 
 @author: HAMID
+
+This Python program uses Matplotlib and NumPy to create a 
+quiver plot—a grid of arrows—where each arrow's direction 
+and magnitude represent a 2D vector field based on cosine 
+and sine functions. The arrows are scaled relative to the 
+plot's width, and a quiver key is added to indicate that 
+an arrow length of 2 represents a velocity of 2 m/s.
+
 """
 
 import matplotlib.pyplot as plt
